@@ -17,7 +17,7 @@ public class Album {
     @Column
     String name;
 
-    @ManyToOne
+    @ManyToOne  
     Artist artist;
 
     @OneToMany(mappedBy = "album")
